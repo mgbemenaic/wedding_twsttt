@@ -1,12 +1,20 @@
-# Kennedy weds Queeneth – Wedding Invitation
+# Kennedy & Queeneth Wedding Invitation
 
-Single-page animated wedding invitation (30 December 2026, Balmoral Event Center, Lagos).
+A self-contained wedding invitation website for Kennedy and Queeneth.
 
-## Deploy on GitHub Pages
-1. Create a new repository on GitHub (e.g. `kennedy-queeneth`).
-2. Upload everything in this folder (`index.html`, `.nojekyll`, `README.md`) to the repository root.
-3. Go to **Settings → Pages**. Under **Build and deployment**, set **Source** to *Deploy from a branch*, choose branch `main` and folder `/ (root)`, then **Save**.
-4. After a minute your site is live at `https://<your-username>.github.io/<repository-name>/`.
+## Files
+- `index.html` — the complete website, including its CSS and JavaScript.
+- `.nojekyll` — prevents GitHub Pages from applying Jekyll processing.
 
-## Edit details
-All content (names, date, venue, bank details, RSVP link) is inside `index.html`.
+## Deploy using GitHub Pages
+1. Create a new repository on GitHub.
+2. Upload the contents of this folder to the repository's root: `index.html`, `.nojekyll`, and `README.md`.
+3. Open the repository's **Settings** and select **Pages**.
+4. Under **Build and deployment**, choose **Deploy from a branch**.
+5. Select the `main` branch and `/ (root)`, then save.
+6. Once publishing is complete, GitHub will display the website URL in the Pages section.
+
+## Check before publishing
+Review the wedding date, venue, map links, RSVP form link, and gift/bank details in `index.html`.
+
+The page loads its decorative fonts from Google Fonts, so an internet connection is needed for those fonts. The HTML, styling, and scripts are otherwise included in the single `index.html` file.
